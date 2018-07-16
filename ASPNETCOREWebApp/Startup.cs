@@ -29,7 +29,7 @@ namespace ASPNETCOREWebApp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello CD!");
+                await context.Response.WriteAsync("Hello Again");
             });
         }
     }
